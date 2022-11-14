@@ -20,6 +20,7 @@ public class BookService {
 
     public Book saveBook (Book book){
         System.out.println("Всем привет, надеюсь заработает");
+        System.out.println("Всем привет, УРА ЗАРАБОТАЛО!");
 
         return repositoryBook.save(book);
     }
