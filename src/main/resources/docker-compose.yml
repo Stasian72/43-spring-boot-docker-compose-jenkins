@@ -1,0 +1,14 @@
+version: "3"
+services:
+  postgres:
+    image: postgres:latest
+    container_name: "postgres"
+    ports:
+      - 5432:5432
+  springboot:
+    image: spring-boot-docker-compose-jenkins.jar:latest
+    container_name: "spring-boot-docker-compose-jenkins.jar"
+    ports:
+      - 8081:8081
+    links:
+      - postgres

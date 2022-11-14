@@ -1,0 +1,11 @@
+#server:
+#  data:
+#    postgresql:
+#      database: mvc_db
+#      host: 0.0.0.0
+#      port: 5432
+#      password: 25td701
+#      username: postgres
+#      driver-class-name: org.postgresql.Driver
+#      url: jdbc:postgresql://localhost:5432/mvc_db
+#  port: 8081
