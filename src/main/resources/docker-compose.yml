@@ -9,6 +9,6 @@ services:
     image: spring-boot-docker-compose-jenkins.jar:latest
     container_name: "spring-boot-docker-compose-jenkins.jar"
     ports:
-      - 8081:8081
+      - 8083:8083
     links:
       - postgres
